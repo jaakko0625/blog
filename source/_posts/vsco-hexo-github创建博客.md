@@ -1,7 +1,7 @@
 ---
 title: vsco+hexo+github创建博客
 date: 2022-04-20 14:14:38
-tags:
+tags: [hexo,blog,github]
 ---
 通过Vsco+Hexo+Github创建个人博客
 =============================
