@@ -106,11 +106,11 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        归档: /archives
+        类别: /categories
+        标签: /tags
+        关于我: /about
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -226,13 +226,13 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Jaakko
         # Author title
-        author_title: Your title
+        author_title: 记录解决问题的方式
         # Author's current location
-        location: Your location
+        location: Los Angles
         # URL or path to the avatar image
-        avatar: 
+        avatar: https://cdn5.maocdn.cn/img/2022/04/20/photo_2019-11-02_01-59-34.md.jpg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
