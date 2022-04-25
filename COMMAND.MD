@@ -20,3 +20,6 @@ hexo clean
 
 # 部署git
 hexo d
+
+# 随机二刺螈图片
+http://www.dmoe.cc/random.php

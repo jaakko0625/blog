@@ -2,6 +2,7 @@
 title: 'flutter study day 1 : 学习了Dart语言的基础知识'
 date: 2022-04-23 19:06:54
 tags: [flutter]
+categories: flutter
 ---
 ![flutter 第一天](https://tva2.sinaimg.cn/large/0072Vf1pgy1foxk3qdi4cj31kw0w0kh2.jpg)
 

@@ -2,6 +2,7 @@
 title: Typora流程图代码实例
 date: 2022-04-21 18:11:45
 tags: [typora,流程图,mermaid]
+categories: 技术分享
 ---
 
 ![test](Typora流程图代码实例/hello.jpeg)
