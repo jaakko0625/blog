@@ -2,6 +2,7 @@
 title: flutter study day 2 我的第一个flutter应用
 date: 2022-04-24 18:03:49
 tags: [flutter]
+categories: 技术学习
 ---
 ![我的第一个flutter应用](https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkjdzgusj31hc0u0nfc.jpg)
 day 2 我的第一个flutter应用

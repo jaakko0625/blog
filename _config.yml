@@ -5,9 +5,10 @@ keywords: null
 author: 自用
 language: zh-CN
 timezone: ''
-url: http://example.com
-permalink: ':year/:month/:day/:title/'
-permalink_defaults: null
+url: https://blog.suflive.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
 pretty_urls:
   trailing_index: true
   trailing_html: true

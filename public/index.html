@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>自用笔记本</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="自用笔记本"><meta name="msapplication-TileImage" content="/images/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="自用笔记本"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="自用笔记本"><meta property="og:url" content="https://blog.suflive.com/"><meta property="og:site_name" content="自用笔记本"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://blog.suflive.com/img/og_image.png"><meta property="article:author" content="自用"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.suflive.com"},"headline":"自用笔记本","image":["https://blog.suflive.com/img/og_image.png"],"author":{"@type":"Person","name":"自用"},"publisher":{"@type":"Organization","name":"自用笔记本","logo":{"@type":"ImageObject","url":"https://blog.suflive.com/images/colacloudonline.png"}},"description":""}</script><link rel="icon" href="/images/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 6.1.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/images/colacloudonline.png" alt="自用笔记本" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item is-active" href="/">首页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">类别</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about">关于我</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2022-04-24T10:03:49.000Z" title="2022-4-24 6:03:49 ├F10: PM┤">2022-04-24</time>发表</span><span class="level-item"><time dateTime="2022-04-25T06:43:49.877Z" title="2022-4-25 2:43:49 ├F10: PM┤">2022-04-25</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/">技术学习</a></span><span class="level-item">12 分钟读完 (大约1824个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2022/04/24/flutter-study-day-2-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAflutter%E5%BA%94%E7%94%A8/">flutter study day 2 我的第一个flutter应用</a></h1><div class="content"><p><img src="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkjdzgusj31hc0u0nfc.jpg" alt="我的第一个flutter应用"><br>day 2 我的第一个flutter应用<br>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;<br>今天花了几个小时时间终于将flutter环境处理好了<br>于是开始动手写我的一个flutter项目<br><a target="_blank" rel="noopener" href="https://flutter.cn/docs/get-started/codelab">参照flutter中文官网</a>  </p>
+<h3 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h3><p>在android studio创建项目<br>create new flutter project -&gt; flutter -&gt; 填写fluttersdk地址 -&gt; 填写项目名字 -&gt; next -&gt; finish 创建完成</p>
+<h3 id="修改main-dart"><a href="#修改main-dart" class="headerlink" title="修改main.dart"></a>修改main.dart</h3><pre><code>import &#39;package:flutter/material.dart&#39;;
+//引入flutter下的material包
+
+void main() &#123;
+runApp(const MyApp());
+&#125;
+//声明入口文件
+
+//创建myapp类并继承自StatlessWidget组件
+class MyApp extends StatelessWidget &#123;
+const MyApp(&#123;Key? key&#125;) : super(key: key);
+//进行函数构造 Flutter 框架中 Widget 構造函數都提供了Key 作為可選參數。
+
+//重写部件 build
+@override
+Widget build(BuildContext context) &#123; //传入参数BuildContext context
+    return MaterialApp(//返回 重写后的app
+    title: &#39;Welcome to Flutter&#39;,
+    home: Scaffold(
+        appBar: AppBar(//App顶栏：
+        title: const Text(&#39;my_app&#39;),//标题：文本（&quot;my_app&quot;）
+        ),
+        body: const Center(//修改body元素：常量 居中
+        child: Text(&#39;Hello World&#39;),//子元素：文本(&quot;Hello World&quot;)
+        ),
+    ),
+    );
+&#125;
+&#125;
+</code></pre>
+<p>实现如下效果：<br><img src="https://flutter.cn/assets/images/docs/get-started/ios/hello-world.png"></p>
+<h3 id="导入包"><a href="#导入包" class="headerlink" title="导入包"></a>导入包</h3><p>包介绍：english_words<br>包含数千个最常用的英文单词以及一些实用功能。<br>在项目目录执行:<br>    flutter pub add english_words</p>
+<p>android studio打开pubspec.yml会提示pub get<br>类似nodejs的npm install安装依赖</p>
+<p>导入<br>打开main.dart  </p>
+<pre><code>import &#39;package:english_words/english_words.dart&#39;;
+//导入english_words包 未使用的包呈现灰色字体
+</code></pre>
+<p>**调用pair_words  **</p>
+<pre><code>//重写部件 build
+@override
+Widget build(BuildContext context) &#123; //传入参数BuildContext context
+    final word_Pair = WordPair.random();//声明变量 word Pair = wordpaird的random函数随机生成英文
+    return MaterialApp(//返回 重写后的app
+    title: &#39;Welcome to Flutter&#39;,
+    home: Scaffold(
+        appBar: AppBar(//App顶栏：
+        title: const Text(&#39;my_app&#39;),//标题：文本（&quot;my_app&quot;）
+        ),
+        body: Center(//修改body元素：居中显示
+        child: Text(word_Pair.asPascalCase),//文本(word_paird的随机英文并使用pascalcase进行大驼峰命名法重命名)
+        ),
+    ),
+    );
+&#125;
+</code></pre>
+<p>实现如下效果：<br><img src="https://flutter.cn/assets/images/docs/get-started/ios/step2.png"></p>
+<h3 id="添加一个statefull-widget"><a href="#添加一个statefull-widget" class="headerlink" title="添加一个statefull widget"></a>添加一个statefull widget</h3><p><strong>dart.main末尾添加以下代码</strong></p>
+<pre><code>//新建类randomwords 继承自statefullwidget
+class RandomWords extends StatefulWidget &#123;
+    const RandomWords(&#123; Key? key &#125;) : super(key: key);
+    //函数初始化 Flutter 框架中 Widget 構造函數都提供了Key 作為可選參數。
+
+    //重写_RandomWordState类的createState函数 = _RandomWordsState()函数；
+    @override
+    _RandomWordsState createState() =&gt; _RandomWordsState();
+&#125;
+//新建类——randomwordsstate 继承自 state&lt;泛型 RandomWords&gt;
+class _RandomWordsState extends State&lt;RandomWords&gt; &#123;
+//重写 build函数
+@override
+Widget build(BuildContext context) &#123;
+        final wordPair = WordPair.random();//wordPair = 随机生成英文单词
+        return Text(wordPair.asPascalCase);//返回文本 随机生成单词并使用大驼峰命名法
+    &#125;
+&#125;
+</code></pre>
+<h3 id="创建一个无限滚动的-ListView"><a href="#创建一个无限滚动的-ListView" class="headerlink" title="创建一个无限滚动的 ListView"></a>创建一个无限滚动的 ListView</h3><p><strong>修改dart.main</strong><br><strong>向 _RandomWordsState 类中添加一个 _suggestions 列表以保存建议的单词对，同时，添加一个 _biggerFont 变量来增大字体大小</strong></p>
+<pre><code>    class _RandomWordsState extends State&lt;RandomWords&gt; &#123;
+        final _suggestions = &lt;WordPair&gt;[];//新增数组_suggestions数据 泛型为WordPair
+        final _biggerFont = const TextStyle(fontSize: 18.0);//新建变量 _biggerFont 定义 文本样式（字体大小 18.0）
+        // ···
+    &#125;
+
+向 _RandomWordsState 类的 build 方法添加 ListView.builder
+在 _RandomWordsState 中的 itemBuilder 里添加 ListTile 函数
+class _RandomWordsState extends State&lt;RandomWords&gt; &#123;
+final _suggestions = &lt;WordPair&gt;[];//新增数组_suggestions数据 泛型为WordPair
+final _biggerFont = const TextStyle(fontSize: 18.0);//新建变量 _biggerFont 定义 文本样式（字体大小 18.0）
+//重写 build函数
+@override
+Widget build(BuildContext context) &#123;
+    final wordPair = WordPair.random();//wordPair = 随机生成英文单词
+    // return Text(wordPair.asPascalCase);//返回文本 随机生成单词并使用大驼峰命名法
+    return ListView.builder(//返回列表显示
+    padding: const EdgeInsets.all(16.0),//边距16.0
+    //EdgeInsets对象：为四个方向设定固定的边距 .all为所有方向设置边距
+    itemBuilder: /*1*/ (context, i)&#123;//参数：连接,迭代器i（从0开始);每调用一次会自增
+        //每次建议的单词对都会让其递增两次，一次是 ListTile，另一次是 Divider。它用于创建一个在用户滚动时候无限增长的列表。
+        //ListView 类提供了一个名为 itemBuilder 的 builder 属性，这是一个工厂匿名回调函数，接受两个参数
+        if (i.isOdd) return const Divider();/*2*/
+        //如果 i增加了：返回divider
+        /*
+        Divider是一个分割线控件
+            height：是控件的高，并不是线的高度，绘制的线居中。
+            thickness：线的高度。
+            indent：分割线前面空白区域。
+            endIndent：分割线后面空白区域。
+        默认为浅灰色分隔线
+        */
+
+        final index = i ~/ 2; /*3*/
+        //定义 索引 = i / 2 向下取整 计算出 ListView 中减去分隔线后的实际单词对数量。
+        if (index &gt;= _suggestions.length)&#123;//如果 索引小于等于 _suggestions的长度
+        _suggestions.addAll(generateWordPairs().take(10));/*4*/
+        //生成10个单词并增加到_suggestions数据内
+        &#125;
+        return ListTile(//返回列表
+        title: Text(//标题为文本
+            _suggestions[index].asPascalCase,
+            //_suggestions[索引].大驼峰命名
+            style: _biggerFont,
+            //样式为 定义好的 16.0
+        )
+        );
+    &#125;,
+    );
+&#125;
+&#125;
+
+//新建类randomwords 继承自statefullwidget
+class RandomWords extends StatefulWidget &#123;
+const RandomWords(&#123; Key? key &#125;) : super(key: key);
+//函数初始化 Flutter 框架中 Widget 構造函數都提供了Key 作為可選參數。
+
+//重写_RandomWordState类的createState函数 = _RandomWordsState()函数；
+@override
+_RandomWordsState createState() =&gt; _RandomWordsState();
+&#125;
+</code></pre>
+<p><strong>更新 _RandomWordsState 的 build() 方法以使用_buildSuggestions()</strong></p>
+<pre><code>//新建类——randomwordsstate 继承自 state&lt;泛型 RandomWords&gt;
+class _RandomWordsState extends State&lt;RandomWords&gt; &#123;
+final _suggestions = &lt;WordPair&gt;[];//新增数组_suggestions数据 泛型为WordPair
+final _biggerFont = const TextStyle(fontSize: 18.0);//新建变量 _biggerFont 定义 文本样式（字体大小 18.0）
+//重写 build函数
+@override
+Widget build(BuildContext context) &#123;
+    // final wordPair = WordPair.random();//wordPair = 随机生成英文单词
+    // return Text(wordPair.asPascalCase);//返回文本 随机生成单词并使用大驼峰命名法
+    return Scaffold(
+    appBar: AppBar(
+        title: const Text(&#39;Startup Name Generator&#39;),
+    ),
+    body: ListView.builder(//返回列表显示
+    padding: const EdgeInsets.all(16.0),//边距16.0
+    //EdgeInsets对象：为四个方向设定固定的边距 .all为所有方向设置边距
+    itemBuilder: /*1*/ (context, i)&#123;//参数：连接,迭代器i（从0开始);每调用一次会自增
+        //每次建议的单词对都会让其递增两次，一次是 ListTile，另一次是 Divider。它用于创建一个在用户滚动时候无限增长的列表。
+        //ListView 类提供了一个名为 itemBuilder 的 builder 属性，这是一个工厂匿名回调函数，接受两个参数
+        if (i.isOdd) return const Divider();/*2*/
+        //如果 i增加了：返回divider
+        /*
+        Divider是一个分割线控件
+            height：是控件的高，并不是线的高度，绘制的线居中。
+            thickness：线的高度。
+            indent：分割线前面空白区域。
+            endIndent：分割线后面空白区域。
+        默认为浅灰色分隔线
+        */
+
+        final index = i ~/ 2; /*3*/
+        //定义 索引 = i / 2 向下取整 计算出 ListView 中减去分隔线后的实际单词对数量。
+        if (index &gt;= _suggestions.length)&#123;//如果 索引小于等于 _suggestions的长度
+        _suggestions.addAll(generateWordPairs().take(10));/*4*/
+        //生成10个单词并增加到_suggestions数据内
+        &#125;
+        return ListTile(//返回列表
+        title: Text(//标题为文本
+            _suggestions[index].asPascalCase,
+            //_suggestions[索引].大驼峰命名
+            style: _biggerFont,
+            //样式为 定义好的 16.0
+        )
+        );
+    &#125;,
+    ),
+    );
+&#125;
+&#125;
+</code></pre>
+<h3 id="更新-MyApp-的-build-方法，修改-title-的值来改变标题，修改-home-的值为-RandomWords-widget"><a href="#更新-MyApp-的-build-方法，修改-title-的值来改变标题，修改-home-的值为-RandomWords-widget" class="headerlink" title="更新 MyApp 的 build() 方法，修改 title 的值来改变标题，修改 home 的值为 RandomWords widget"></a>更新 MyApp 的 build() 方法，修改 title 的值来改变标题，修改 home 的值为 RandomWords widget</h3><pre><code>//创建myapp类并继承自StatlessWidget组件
+class MyApp extends StatelessWidget &#123;
+const MyApp(&#123;Key? key&#125;) : super(key: key);
+//进行函数构造 Flutter 框架中 Widget 構造函數都提供了Key 作為可選參數。
+
+//重写部件 build
+@override
+Widget build(BuildContext context) &#123; //传入参数BuildContext context
+    return const MaterialApp(//返回 重写后的app
+    title: &#39;Startup Name Generator&#39;,
+    home: RandomWords(),
+    );
+&#125;
+&#125;
+</code></pre>
+<p>最终效果如下：<br><img src="https://flutter.cn/assets/images/docs/get-started/ios/step4-infinite-list.png"></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2022-04-23T11:06:54.000Z" title="2022-4-23 7:06:54 ├F10: PM┤">2022-04-23</time>发表</span><span class="level-item"><time dateTime="2022-04-23T11:16:56.066Z" title="2022-4-23 7:16:56 ├F10: PM┤">2022-04-23</time>更新</span><span class="level-item">2 分钟读完 (大约254个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2022/04/23/flutter-study-day-1-%E5%AD%A6%E4%B9%A0%E4%BA%86Dart%E8%AF%AD%E8%A8%80%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">flutter study day 1 : 学习了Dart语言的基础知识</a></h1><div class="content"><p><img src="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxk3qdi4cj31kw0w0kh2.jpg" alt="flutter 第一天"></p>
+<p>最近打算用flutter将服务进行中心化<br>于是便有了使用flutter开发的想法</p>
+<p>之前就接触了flutter 但是时间关系 一直没有深入了解<br>也只是停留在了Dart语言的基础上就没有继续了<br>对于安卓开发&#x2F;IOS开发也只是一知半解<br>我相信这将会是一项很有挑战性的项目  </p>
+<p>今天学习完了flutter的Dart语言基础知识<br>结合了之前学过的Java基础知识<br>发现两者之间并没有多大的不同之处<br>所以理解起来并不算难</p>
+<p>本打算学习完了基础知识之后动手模仿写一下flutter的简单的组件<br>但是我发现我的flutter环境消失了 xcode这些基础的开发工具都需要重新安装  那么安装好了之后今天就结束了 明天再开始新的征程吧</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2022-04-22T06:24:23.000Z" title="2022-4-22 2:24:23 ├F10: PM┤">2022-04-22</time>发表</span><span class="level-item"><time dateTime="2022-04-22T07:00:06.374Z" title="2022-4-22 3:00:06 ├F10: PM┤">2022-04-22</time>更新</span><span class="level-item">4 分钟读完 (大约552个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2022/04/22/%E7%94%B3%E8%AF%B7%E4%B8%80%E5%B9%B4%E9%87%8E%E5%8D%A1%E5%9F%9F%E5%90%8D%E8%AF%81%E4%B9%A6/">申请一年野卡域名证书</a></h1><div class="content"><p><img src="https://tva1.sinaimg.cn/large/a15b4afegy1fmvjgbajynj21hc0u07du.jpg" alt="关于申请域名证书这件小事"></p>
+<h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>由于Let’S申请的免费泛域证书有效期只有三个月<br>每三个月就要重新生成证书并替换证书文件<br>不像单域名一样可以无限renew并且不用替换证书文件</p>
+<h2 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h2><p>我在购买SSL的网站转了一圈发现 购买价格最低在40美金一年<br>平均价格在350美金 名牌商家的价格甚至超过600美金</p>
+<h2 id="所以"><a href="#所以" class="headerlink" title="所以"></a>所以</h2><p>我找到了一个低成本（30元）申请一年泛域名证书方法<br>在节礼给大家分享一下<br>流程大概是下面这样  </p>
+<ul>
+<li>1.申请一个域名邮箱(<a href="mailto:&#97;&#x64;&#x6d;&#105;&#110;&#x40;&#x64;&#x6f;&#x6d;&#x61;&#105;&#x6e;&#46;&#x6c;&#116;&#x64;">&#97;&#x64;&#x6d;&#105;&#110;&#x40;&#x64;&#x6f;&#x6d;&#x61;&#105;&#x6e;&#46;&#x6c;&#116;&#x64;</a>)</li>
+<li>2.生成CSR + Private Key</li>
+<li>3.使用Token + CSR 申请Alpha泛域</li>
+<li>4.在邮箱内确认开通泛域信息</li>
+<li>5.合并中间证书</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://mail.zohu.com.cn/">域名邮箱申请</a><br><a target="_blank" rel="noopener" href="https://api.moeclub.org/SSL/CSR">CSR生成地址</a><br><a target="_blank" rel="noopener" href="https://api.moeclub.org/SSL">SSL申请地址</a><br><a target="_blank" rel="noopener" href="https://shop.moeclub.org/">Token购买地址</a></p>
+<p>证书合并方式：<br>新建一个空白文档(cert.pem)  </p>
+<ol>
+<li>粘贴邮件尾部的证书</li>
+<li>粘贴Alpha中间证书<br>‘—–BEGIN CERTIFICATE—–<br>MIIETTCCAzWgAwIBAgILBAAAAAABRE7wNjEwDQYJKoZIhvcNAQELBQAwVzELMAkG<br>A1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExEDAOBgNVBAsTB1Jv<br>b3QgQ0ExGzAZBgNVBAMTEkdsb2JhbFNpZ24gUm9vdCBDQTAeFw0xNDAyMjAxMDAw<br>MDBaFw0yNDAyMjAxMDAwMDBaMEwxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9i<br>YWxTaWduIG52LXNhMSIwIAYDVQQDExlBbHBoYVNTTCBDQSAtIFNIQTI1NiAtIEcy<br>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2gHs5OxzYPt+j2q3xhfj<br>kmQy1KwA2aIPue3ua4qGypJn2XTXXUcCPI9A1p5tFM3D2ik5pw8FCmiiZhoexLKL<br>dljlq10dj0CzOYvvHoN9ItDjqQAu7FPPYhmFRChMwCfLew7sEGQAEKQFzKByvkFs<br>MVtI5LHsuSPrVU3QfWJKpbSlpFmFxSWRpv6mCZ8GEG2PgQxkQF5zAJrgLmWYVBAA<br>cJjI4e00X9icxw3A1iNZRfz+VXqG7pRgIvGu0eZVRvaZxRsIdF+ssGSEj4k4HKGn<br>kCFPAm694GFn1PhChw8K98kEbSqpL+9Cpd&#x2F;do1PbmB6B+Zpye1reTz5&#x2F;olig4het<br>ZwIDAQABo4IBIzCCAR8wDgYDVR0PAQH&#x2F;BAQDAgEGMBIGA1UdEwEB&#x2F;wQIMAYBAf8C<br>AQAwHQYDVR0OBBYEFPXN1TwIUPlqTzq3l9pWg+Zp0mj3MEUGA1UdIAQ+MDwwOgYE<br>VR0gADAyMDAGCCsGAQUFBwIBFiRodHRwczovL3d3dy5hbHBoYXNzbC5jb20vcmVw<br>b3NpdG9yeS8wMwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5nbG9iYWxzaWdu<br>Lm5ldC9yb290LmNybDA9BggrBgEFBQcBAQQxMC8wLQYIKwYBBQUHMAGGIWh0dHA6<br>Ly9vY3NwLmdsb2JhbHNpZ24uY29tL3Jvb3RyMTAfBgNVHSMEGDAWgBRge2YaRQ2X<br>yolQL30EzTSo&#x2F;&#x2F;z9SzANBgkqhkiG9w0BAQsFAAOCAQEAYEBoFkfnFo3bXKFWKsv0<br>XJuwHqJL9csCP&#x2F;gLofKnQtS3TOvjZoDzJUN4LhsXVgdSGMvRqOzm+3M+pGKMgLTS<br>xRJzo9P6Aji+Yz2EuJnB8br3n8NA0VgYU8Fi3a8YQn80TsVD1XGwMADH45CuP1eG<br>l87qDBKOInDjZqdUfy4oy9RU0LMeYmcI+Sfhy+NmuCQbiWqJRGXy2UzSWByMTsCV<br>odTvZy84IOgu&#x2F;5ZR8LrYPZJwR2UcnnNytGAMXOLRc3bgr07i5TelRS+KIz6HxzDm<br>MTh89N1SyvNTBCVXVmaU6Avu5gMUTu79bZRknl7OedSyps9AsUSoPocZXun4IRZZ<br>Uw&#x3D;&#x3D;</li>
+</ol>
+<p>—–END CERTIFICATE—–’</p>
+<p>以上[1+2]合并成cert.pem  </p>
+<p>另外新建一个空白文档(cert.key)<br>粘贴在第二步生成Private Key  </p>
+<p><strong>将以上两个证书密钥部署到服务器即可完成证书申请到部署全部步骤</strong></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2022-04-21T10:11:45.000Z" title="2022-4-21 6:11:45 ├F10: PM┤">2022-04-21</time>发表</span><span class="level-item"><time dateTime="2022-04-25T08:44:27.937Z" title="2022-4-25 4:44:27 ├F10: PM┤">2022-04-25</time>更新</span><span class="level-item">1 分钟读完 (大约132个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2022/04/21/Typora%E6%B5%81%E7%A8%8B%E5%9B%BE%E4%BB%A3%E7%A0%81%E5%AE%9E%E4%BE%8B/">Typora流程图代码实例</a></h1><div class="content"><!-- ![](https://tva1.sinaimg.cn/large/0072Vf1pgy1foxkfrmrlgj31hc0u0wt1.jpg) -->
+
+<img src="/2022/04/21/Typora%E6%B5%81%E7%A8%8B%E5%9B%BE%E4%BB%A3%E7%A0%81%E5%AE%9E%E4%BE%8B/hello.jpeg" class="" title="test">
+<img src="/2022/04/21/Typora%E6%B5%81%E7%A8%8B%E5%9B%BE%E4%BB%A3%E7%A0%81%E5%AE%9E%E4%BE%8B/test.png" class="">
+
+<h1 id="Typora流程图"><a href="#Typora流程图" class="headerlink" title="Typora流程图"></a>Typora流程图</h1><h2 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h2><p><strong>横向流程图</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a=1| D[结果1]</span><br><span class="line">    C --&gt;|a=2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br></pre></td></tr></table></figure>
+
+<p><strong>竖向流程图</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[方形] --&gt; B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt; |a=1| D[结果1]</span><br><span class="line">    C --&gt; |a=2| E[结果2]</span><br><span class="line">    F[竖向流程图]</span><br></pre></td></tr></table></figure>
+
+<p>暂时只用到这两种 其他类型的用到时候再更新吧！</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2022-04-20T06:14:38.000Z" title="2022-4-20 2:14:38 ├F10: PM┤">2022-04-20</time>发表</span><span class="level-item"><time dateTime="2022-04-20T08:06:03.381Z" title="2022-4-20 4:06:03 ├F10: PM┤">2022-04-20</time>更新</span><span class="level-item">2 分钟读完 (大约318个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2022/04/20/vsco-hexo-github%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/">vsco+hexo+github创建博客</a></h1><div class="content"><p><img src="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxki70guwj31kw0w0qpu.jpg" alt="vsco+hexo+github创建博客"><br>通过Vsco+Hexo+Github创建个人博客<br>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;<br>环境准备</p>
+<hr>
+<h4 id="本地mac-x3D-node12-vscode-hexo-icarus"><a href="#本地mac-x3D-node12-vscode-hexo-icarus" class="headerlink" title="本地mac &#x3D; node12 + vscode + hexo + icarus"></a>本地mac &#x3D; node12 + vscode + hexo + icarus</h4><h4 id="linux服务端-x3D-ndoe12-npm-pm2-crontab"><a href="#linux服务端-x3D-ndoe12-npm-pm2-crontab" class="headerlink" title="linux服务端 &#x3D; ndoe12 + npm + pm2 + crontab"></a>linux服务端 &#x3D; ndoe12 + npm + pm2 + crontab</h4><p><strong>github创建项目储存博客内容<br>使用GithubDesktop打开项目</strong></p>
+<h3 id="本地环境搭建"><a href="#本地环境搭建" class="headerlink" title="本地环境搭建"></a>本地环境搭建</h3><p><strong>node使用了pkg方式安装</strong><br><a target="_blank" rel="noopener" href="https://nodejs.org/download/release/v12.22.7/">https://nodejs.org/download/release/v12.22.7/</a></p>
+<p><strong>安装 hexo-cli</strong><br>npm i -g hexo-cli<br>执行以下命令初始化hexo<br>hexo init</p>
+<p><strong>编辑 _config.yml</strong></p>
+<pre><code>title: Jaakko的365天 #网站标题
+subtitle: &#39;&#39;
+description: &#39;&#39;
+keywords: null #搜索关键字
+author: Jaakko #作者名称
+language: zh-CN #显示语言
+</code></pre>
+<p>执行以下命令拉起hexo<br>hexo s</p>
+<p><strong>安装 icarus主题</strong><br>npm install hexo-theme-icarus<br>hexo config theme icarus</p>
+<p>上述环境搭建好后使用GitHubDesktop<br>将内容Push到github</p>
+<p>linux安装好环境后使用pm2后台挂起hexo<br>run_pm2.js  </p>
+<pre><code>//run
+const &#123; exec &#125; = require(&#39;child_process&#39;)
+exec(&#39;hexo server&#39;,(error, stdout, stderr) =&gt; &#123;
+if(error)&#123;
+console.log(&#39;exec error: $&#123;error&#125;&#39;)
+return
+&#125;
+console.log(&#39;stdout: $&#123;stdout&#125;&#39;);
+console.log(&#39;stderr: $&#123;stderr&#125;&#39;);
+&#125;)
+</code></pre>
+<p>pm2 start run_pm2.js  pm2挂载hexo<br>pm2 startup  开机自启动  </p>
+<p>linux使用crontab定时git pull</p>
+<pre><code>nano /etc/crontab
+*/10 * * * * root /root/blog/auto_git_pull.sh &gt;&gt; /root/blog.log 2&gt;&amp;1
+/etc/init.d/crontab restart
+</code></pre>
+<p>auto_git_pull.sh</p>
+<pre><code>#!/bin/bash
+
+cd /root/blog/
+git pull
+</code></pre>
+<p><strong>linux服务端部署完毕</strong></p>
+<p><strong>mac本地</strong><br>hexo创建文章<br>hexo new “我的第一篇博客”<br>编写文章<br>push到github<br>自动同步到网站</p>
+</div></article></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="https://cdn5.maocdn.cn/img/2022/04/20/photo_2019-11-02_01-59-34.md.jpg" alt="Jaakko"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Jaakko</p><p class="is-size-6 is-block">记录解决问题的方式</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Los Angles</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">5</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">8</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/ppoffice" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/ppoffice"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/"><span class="level-start"><span class="level-item">技术学习</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-04-24T10:03:49.000Z">2022-04-24</time></p><p class="title"><a href="/2022/04/24/flutter-study-day-2-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAflutter%E5%BA%94%E7%94%A8/">flutter study day 2 我的第一个flutter应用</a></p><p class="categories"><a href="/categories/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/">技术学习</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-04-23T11:06:54.000Z">2022-04-23</time></p><p class="title"><a href="/2022/04/23/flutter-study-day-1-%E5%AD%A6%E4%B9%A0%E4%BA%86Dart%E8%AF%AD%E8%A8%80%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">flutter study day 1 : 学习了Dart语言的基础知识</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-04-22T06:24:23.000Z">2022-04-22</time></p><p class="title"><a href="/2022/04/22/%E7%94%B3%E8%AF%B7%E4%B8%80%E5%B9%B4%E9%87%8E%E5%8D%A1%E5%9F%9F%E5%90%8D%E8%AF%81%E4%B9%A6/">申请一年野卡域名证书</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-04-21T10:11:45.000Z">2022-04-21</time></p><p class="title"><a href="/2022/04/21/Typora%E6%B5%81%E7%A8%8B%E5%9B%BE%E4%BB%A3%E7%A0%81%E5%AE%9E%E4%BE%8B/">Typora流程图代码实例</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-04-20T06:14:38.000Z">2022-04-20</time></p><p class="title"><a href="/2022/04/20/vsco-hexo-github%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/">vsco+hexo+github创建博客</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2022/04/"><span class="level-start"><span class="level-item">四月 2022</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/SSL/"><span class="tag">SSL</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/blog/"><span class="tag">blog</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/flutter/"><span class="tag">flutter</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/github/"><span class="tag">github</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/hexo/"><span class="tag">hexo</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/mermaid/"><span class="tag">mermaid</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/typora/"><span class="tag">typora</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/"><span class="tag">流程图</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">订阅更新</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="订阅"></div></div></form></div></div></div><div class="card widget"><div class="card-content"><div class="notification is-danger">You need to set <code>client_id</code> and <code>slot_id</code> to show this AD unit. Please set it in <code>_config.yml</code>.</div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="订阅"></div></div></form></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/images/colacloudonline.png" alt="自用笔记本" height="28"></a><p class="is-size-7"><span>&copy; 2022 自用</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "此网站使用Cookie来改善您的体验。",
+          dismiss: "知道了！",
+          allow: "允许使用Cookie",
+          deny: "拒绝",
+          link: "了解更多",
+          policy: "Cookie政策",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
