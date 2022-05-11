@@ -79,3 +79,96 @@ widthFatory:设置占用比例
 长按球进行移动
 
 ![image](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/doc/8C717632-7754-4A90-8F74-29DC5AD2965B/E71B3DC2-4869-4207-A90B-88E36AE6326B_2/H5d8p29vFtJUwsSXFdxTZ7Q9Js2VSvFkKIqlr312jwkz/Image.png)
+
+代码示例：
+
+```other
+import 'package:flutter/material.dart';
+
+class GusturePage extends StatefulWidget {
+  @override
+  State<GusturePage> createState() => _GusturePageState();
+}
+
+class _GusturePageState extends State<GusturePage> {
+  String printString = '';//
+  double moveX=0, moveY=0;
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(//使用MaterialApp包裹
+      theme: ThemeData(//主题库
+        primarySwatch: Colors.blue,//设置主题颜色 蓝色
+      ),
+      home: Scaffold(//使用scaffold包裹
+        appBar: AppBar(
+          title: Text("如何检测用户手势以及处理点击事件？"),//设置标题
+          leading: GestureDetector(//设置顶栏左侧按钮
+            onTap: (){//点击事件
+              Navigator.pop(context);//pop离开某个页面
+            },
+            child: Icon(Icons.arrow_back),//leading左侧按钮的图标 arrow_back(返回)
+          ),
+        ),
+        body: FractionallySizedBox(//FractionallySizedBox控件会根据现有空间，来调整child的尺寸
+          widthFactor: 1,//占满屏幕
+          child: Stack(//层叠布局
+            children: <Widget>[
+              Column(//使Widget里面的组件能够上下排列
+                children: <Widget>[
+                  GestureDetector(//flutter内所有的手势都会委托给GestureDetector处理
+                    onTap: () => _printMsg("点击"),//单击事件 触发自定义方法 打印文字
+                    onDoubleTap: () => _printMsg("双击"),//双击事件 触发自定义方法 打印文字
+                    onLongPress: () => _printMsg("长按"),//长按事件 触发自定义方法 打印文字
+                    onTapCancel: () => _printMsg("取消"),//取消事件 触发自定义方法 打印文字
+                    onTapUp: (e) => _printMsg("手指松开"),//手指松开事件 触发自定义方法 打印文字
+                    onTapDown: (e) => _printMsg("手指按下"),//手指按下事件 触发自定义方法 打印文字
+                    child: Container(//添加容器
+                      padding: EdgeInsets.all(60),//设置全部边距为60
+                      decoration: BoxDecoration(color: Colors.blue,),//设置装饰器
+                      child: const Text('点我',style: TextStyle(
+                        fontSize: 36,
+                        color: Colors.white,
+                      )),
+                    ),
+                  ),
+                  Text(printString),
+                ],
+              ),
+              Positioned(//创建一个跟随用户手势的小球
+                left: moveX,//设定X轴
+                top: moveY, //设定Y轴
+                child: GestureDetector(//手势监听器
+                  onPanUpdate:(e) => _doMove(e),//跟随触控更新
+                  child: Container(
+                    width: 72,//宽72
+                    height: 72,//长72
+                    decoration: BoxDecoration(//装饰器
+                      color:Colors.amber,//颜色 amber黄
+                      borderRadius: BorderRadius.circular(36),//圆角等于直径的一般 形成圆形
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+  _printMsg(String msg) {//自定义_printMsg方法，接收一个字符串
+    setState((){
+      printString += ' ,$msg';//字符串拼接
+    });
+  }
+  _doMove(DragUpdateDetails e) {//球移动的方法
+    setState(() {
+      moveY += e.delta.dy;//更新每次移动的位置Y
+      moveX += e.delta.dx;//更新每次移动的位置X
+    });
+  }
+}
+
+
+
+```
+
