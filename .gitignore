@@ -1,3 +1,6 @@
+./db.json
+./node_modules/*
+./theme/amazing/node_modules/*
 # Logs
 logs
 *.log
