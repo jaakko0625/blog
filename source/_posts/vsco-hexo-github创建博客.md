@@ -8,6 +8,8 @@ categories: 技术分享
 通过Vsco+Hexo+Github创建个人博客
 =============================
 环境准备
+<!-- more -->
+
 -----
 #### 本地mac = node12 + vscode + hexo + icarus  
 #### linux服务端 = ndoe12 + npm + pm2 + crontab

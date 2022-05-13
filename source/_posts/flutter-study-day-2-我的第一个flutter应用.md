@@ -5,8 +5,11 @@ tags: [flutter]
 categories: flutter
 ---
 ![我的第一个flutter应用](https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkjdzgusj31hc0u0nfc.jpg)
+<!-- more -->
+
 day 2 我的第一个flutter应用
 =========================
+
 今天花了几个小时时间终于将flutter环境处理好了  
 于是开始动手写我的一个flutter项目
 [参照flutter中文官网](https://flutter.cn/docs/get-started/codelab)  
@@ -14,7 +17,6 @@ day 2 我的第一个flutter应用
 ### 首先
 在android studio创建项目  
 create new flutter project -> flutter -> 填写fluttersdk地址 -> 填写项目名字 -> next -> finish 创建完成
-
 ### 修改main.dart
     import 'package:flutter/material.dart';
     //引入flutter下的material包

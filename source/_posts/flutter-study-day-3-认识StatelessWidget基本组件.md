@@ -5,6 +5,7 @@ tags: [flutter]
 categories: flutter
 ---
 ![认识StatelessWidget基本组件](https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkcpa9qqj31kw0w07sa.jpg)
+<!-- more -->
 
 Stateless Widget的基本组件
 ========================
@@ -16,7 +17,6 @@ Stateless Widget的特点：
 **Contrainer 容器**
 
 约束子节点，居中，内边距、宽高、颜色、背景、装饰器
-
 **Text 文本** 显示文本
 
 使用方法：Text(“文本内容”),

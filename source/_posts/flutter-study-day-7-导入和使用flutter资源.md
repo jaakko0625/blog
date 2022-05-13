@@ -5,10 +5,11 @@ tags: [flutter]
 categories: flutter
 ---
 **导入**
-
 在pubspec.yaml中删除assets的注释以及填写资源文件路径已经文件名
 
 ![image](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/doc/5BCFA878-1F9A-493A-9DAB-8CF4D50B5912/0656A165-2C7B-47E0-B623-EEDBD8FF4B26_2/UzgRRxtyGIJJw4KgzKVgkJdfanJRCFq5IqWYHWKZsYsz/Image.png)
+<!-- more -->
+
 
 **使用**
 
@@ -17,6 +18,7 @@ categories: flutter
 通过AssetImage组件使用图片路径进行调用图片
 
 ![image](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/doc/5BCFA878-1F9A-493A-9DAB-8CF4D50B5912/7EAE9F06-A57F-470E-991F-4F9F50FC69F8_2/4KoXsuWjtEGzftd0DRXQ5HGneulAQmYElAPYra1ute4z/Image.png)
+
 
 **实现效果**
 

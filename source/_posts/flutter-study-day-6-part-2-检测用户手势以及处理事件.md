@@ -4,6 +4,7 @@ date: 2022-05-09 21:11:53
 tags: [flutter]
 categories: flutter
 ---
+
 **1.检测用户手势**
 
 创建GesturePage类
@@ -14,6 +15,7 @@ class GusturePage extends StatefulWidget {
   State<GusturePage> createState() => _GusturePageState();
 }
 ```
+<!-- more -->
 
 
 **2.return MaterialApp页面**

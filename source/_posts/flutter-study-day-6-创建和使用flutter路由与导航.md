@@ -5,8 +5,10 @@ tags: [flutter]
 categories: flutter
 ---
 ![flutter study day 6 创建和使用flutter路由与导航](https://tva2.sinaimg.cn/large/a15b4afegy1fnmws7fac1j21hc0u0hak.jpg)
-示例：
 
+<!-- more -->
+
+示例：
 	**在app首页添加路由**
 
 	**在MyApp的MaterialApp内添加routes：**
