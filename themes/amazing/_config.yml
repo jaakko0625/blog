@@ -3,8 +3,8 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: #https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png #/img/logo.svg
-    text: Jaakko的生活日记
+logo: https://img.wang.232232.xyz/img/2022/05/16/1652695460_736762.png #/img/logo.svg
+    #text: Jaakko的生活日记
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -144,16 +144,16 @@ search:
 comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: removeif         # (required) GitHub user name
-    repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
+    owner: jaakko0625 # (required) GitHub user name
+    repo: blog # (required) GitHub repository name
+    client_id: d6ee81786970e2398257 # (required) OAuth application client id
+    client_secret: 7108f908bdd0b4524e7411ef878b6a9b7374c0aa # (required) OAuth application client secret
+    admin: ['jaakko0625']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: false # 是否有热门推荐
     has_latest_comment: false #是否有最新评论
-    proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token #解决登录后403问题
+    proxy:  #解决登录后403问题
 # comment:
 #     type: valine
 #     app_id: rOtVIhvG3kd7QkMKe3naSU9R-gzGzoHsz
@@ -314,8 +314,8 @@ widgets:
     # Google FeedBurner email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: subscribe_email
+        #position: right
+        #type: subscribe_email
         # Hint text under the email input
         description: 
         # Feedburner ID
@@ -397,7 +397,7 @@ providers:
 footer_copyright_dsec: © 版权说明：[本网站所有内容均收集于互联网或自己创作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便于网友与自己学习交流，如有侵权，请<a href="/message" target="_blank">留言</a>，立即处理]<br /> #footer 版权说明 可自由配置
 website_start_time: 2022/04/25 00:00:00 #网站运行开始时间,不填不显示
 footer_registered_no: 川ICP备88888888号-8 #备案号
-side_music_netease_id: 114625512 #侧边栏网易云歌单id
+side_music_netease_id: 5351531329 #侧边栏网易云歌单id
 busuanzi_only_count: false #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
 has_live_2D_switch: false #live2D开关 true-开 false-关
 use_pjax: true #是否pjax
