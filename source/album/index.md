@@ -19,5 +19,5 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301709
 </div>
 
 <br>
----
-图片来自个人拍摄后期处理，如需转发请[留言](https://removeif.github.io/message/)告知。
+
+图片来自个人拍摄后期处理，如需转发请<a href="/message" target="_blank">留言</a>，告知。<br />
