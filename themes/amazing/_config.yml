@@ -151,8 +151,8 @@ comment:
     admin: ['jaakko0625']
     create_issue_manually: true
     distraction_free_mode: false
-    has_hot_recommend: false # 是否有热门推荐
-    has_latest_comment: false #是否有最新评论
+    has_hot_recommend: true # 是否有热门推荐
+    has_latest_comment: true #是否有最新评论
     proxy:  https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token #解决登录后403问题
 # comment:
 #     type: valine
