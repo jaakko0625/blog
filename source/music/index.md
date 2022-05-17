@@ -1,6 +1,6 @@
 ---
 title: 音乐歌单收藏
-date: 2019-07-30 10:43:45
+date: 2099-12-30 00:00:00
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
@@ -10,7 +10,7 @@ date: 2019-07-30 10:43:45
 <meting-js style="width: auto;height: 2000px;"
     server="netease"
     type="playlist"
-    id="2364053447"
+    id="143121764"
     theme="#2980b9"
     loop="all"
     autoplay="false"
@@ -21,4 +21,4 @@ date: 2019-07-30 10:43:45
     >
 </meting-js>
 
-<p style="text-align:center;margin-top:30px"><span style="font-size:14px">温馨提示：选择喜欢的音乐双击播放，由于版权原因部分不能播放。如果喜欢歌单<a href="https://music.163.com/#/user/home?id=132033817" target="_blank" rel="noopener">收藏</a>一下，去网易云都能播放哟！<span></span></span></p>
+<p style="text-align:center;margin-top:30px"><span style="font-size:14px">温馨提示：选择喜欢的音乐双击播放，由于版权原因部分不能播放。如果喜欢歌单<a href="https://music.163.com/#/user/home?id=143121764" target="_blank" rel="noopener">收藏</a>一下，去网易云都能播放哟！<span></span></span></p>
