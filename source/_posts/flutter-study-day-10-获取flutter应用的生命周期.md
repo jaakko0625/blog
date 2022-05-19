@@ -6,7 +6,7 @@ categories: flutter
 thumbnail:
 ---
 
-![image](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/doc/00741F1F-1715-4A21-A4E6-AE8CDA091219/6EB5EFD9-C299-4534-87C8-BC9E1C4EF2C0_2/NRAV6WqyKy8ygrNWs6vWxnjjdSur2AYc6E1RdwWrMu0z/Image.png)
+![获取flutter应用的生命周期](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/doc/00741F1F-1715-4A21-A4E6-AE8CDA091219/6EB5EFD9-C299-4534-87C8-BC9E1C4EF2C0_2/NRAV6WqyKy8ygrNWs6vWxnjjdSur2AYc6E1RdwWrMu0z/Image.png)
 <!-- more -->
 使用WidgetsBindingObserver检测用户操作
 
