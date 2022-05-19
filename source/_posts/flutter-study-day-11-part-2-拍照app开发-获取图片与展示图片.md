@@ -6,7 +6,7 @@ categories: flutter
 thumbnail:
 ---
 
-![image](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/doc/9B4E28F6-E814-4E56-B831-24DC83D37590/8B105975-D1BF-4E94-A276-BCEBD7D225A0_2/RW2mhTspkdXV6XEK4Mp9Qx4FYQMPQEnNYQUev4Jh39wz/Image.png)
+![拍照app开发:获取图片与展示图片](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/doc/9B4E28F6-E814-4E56-B831-24DC83D37590/8B105975-D1BF-4E94-A276-BCEBD7D225A0_2/RW2mhTspkdXV6XEK4Mp9Qx4FYQMPQEnNYQUev4Jh39wz/Image.png)
 <!-- more -->
 需求：点击拍照按钮-》弹出选项（拍照/照片图库）
 
