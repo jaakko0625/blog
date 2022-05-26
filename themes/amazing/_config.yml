@@ -251,7 +251,7 @@ widgets:
         # Author's current location
         location: 广东深圳
         # URL or path to the avatar image
-        avatar: https://cdn5.maocdn.cn/img/2022/04/20/photo_2019-11-02_01-59-34.md.jpg
+        avatar: https://avatars.githubusercontent.com/u/37134258?v=4
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
