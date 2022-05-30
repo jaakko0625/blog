@@ -16,11 +16,21 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301709
 
 <br> -->
 
-> **20220525 zacap**
+> **20220525 happy birehday to yours**
 <div class="img-x">
 
 ![zacap](./2022/may/DSCF0439.jpg)
+
 ![zacap](./2022/may/DSCF0414.jpg)
+</div>
+
+<br>
+
+> **20220527 rainday**
+<div class="img-x">
+
+![rain](./2022/may/DSCF0487.jpg)
+
 </div>
 
 <br>
