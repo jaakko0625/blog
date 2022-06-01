@@ -19,9 +19,7 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301709
 > **20220525 happy birehday to yours**
 <div class="img-x">
 
-![zacap](./2022/may/DSCF0439.jpg)
-
-![zacap](./2022/may/DSCF0414.jpg)
+![zacap](./2022/may/DSCF0439.jpg) ![zacap](./2022/may/DSCF0414.jpg)
 </div>
 
 <br>
@@ -40,9 +38,9 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301709
 
 ![1](./2022/may/30/DSCF0500.jpg)
 ![2](./2022/may/30/DSCF0501.jpg)
-![3](./2022/may/30/DSCF0506.jpg)
+![3](./2022/may/30/DSCF0506.jpg) 
 ![4](./2022/may/30/DSCF0514.jpg)
-![5](./2022/may/30/DSCF0542.jpg)
+<!-- ![5](./2022/may/30/DSCF0542.jpg) --> 
 ![6](./2022/may/30/DSCF0515.jpg)
 </div>
 
