@@ -16,7 +16,7 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301709
 
 <br> -->
 
-> **20220525 happy birehday to yours**
+> **20220525 happy birthday to yours**
 <div class="img-x">
 
 ![zacap](./2022/may/DSCF0439.jpg) ![zacap](./2022/may/DSCF0414.jpg)
