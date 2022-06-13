@@ -46,6 +46,16 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301709
 
 <br>
 
+> **20220530 Still Rain**
+<div class="img-x">
+
+![1](./2022/june/13/5DD0D081-4010-4E87-92FA-E60FE471DFA6-29756-000010CA90E96970.JPG)
+
+![2](./2022/june/13/E72DBEFC-F7D1-44FD-B9BE-25C269E64420-29756-000010CA92F1D608.JPG)
+</div>
+
+<br>
+
 <!-- > **20220516 地铁列车连拍横图**
 <div class="img-x">
 
