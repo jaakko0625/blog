@@ -56,7 +56,7 @@ thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/202010301709
 
 <br>
 
-> **20220530 Camping**
+> **20220625 Camping**
 <div class="img-x">
 
 ![1](./2022/june/25/08A9871D-9BA9-4A0B-BAF1-BEAFF0012BCD-50333-00001C796DF22113.JPG)
