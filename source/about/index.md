@@ -1,5 +1,5 @@
 ---
-thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20201030172650.png
+#thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20201030172650.png
 date: 2018-11-11 08:24:49
 comments: false
 ---
@@ -26,6 +26,7 @@ comments: false
 >+ [ ] 花时间阅读超过3本书  
 	`当前进度`  
 	[1/3] 《梦里花落知多少》 -- 三毛
+	[1/3] 《撒哈拉的故事》 -- 三毛
 >+ [ ] 年底之前拿到驾照
 	`当前进度`  
 	[1/4] 【科目一】 已预约
