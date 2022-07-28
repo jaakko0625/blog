@@ -1,7 +1,7 @@
 ---
 title: 
 date: 2019-07-30 09:33:48
-thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20201030170254.png
+#thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20201030170254.png
 ---
 <div class="music-container">
     <div class="music-player">
