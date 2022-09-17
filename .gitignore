@@ -118,3 +118,4 @@ yarn.lock
 .DS_Store
 db.json
 public/
+.DS_Store
