@@ -6,7 +6,7 @@ categories: 生活日记
 thumbnail:
 ---
 
-![image](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/458594DF-30A6-401C-9940-024242FE91C7_2/CgfeCx1OFL5nIvSx7sR1Bkt2GNuEKlX7YtJQwbC4XPQz/IMG_3205.png)
+![criminal door](https://res.craft.do/user/full/95b613cb-a607-3458-0fba-b0ca77de5993/458594DF-30A6-401C-9940-024242FE91C7_2/CgfeCx1OFL5nIvSx7sR1Bkt2GNuEKlX7YtJQwbC4XPQz/IMG_3205.png)
 
 <!-- more -->
 
